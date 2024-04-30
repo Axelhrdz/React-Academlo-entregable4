@@ -1,0 +1,72 @@
+/* ----------- Reset ----------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+body{
+  background-color: #fff;
+  color: #000;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  object-fit: contain;
+}
+ul{
+  list-style: none;
+}
+input,
+button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-family: inherit;
+  
+}
+button{
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: transform 0.5s;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+/* ----------- App ----------- */
+
+.app__header{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.app__title{
+  font-weight: 500;
+}
+.app__create_user{
+  background-color: #2f88e2;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* padding: 5px 2px; */
+  /* width: 150px; */
+
+}
+.app__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 20px;
+}

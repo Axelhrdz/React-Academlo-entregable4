@@ -1,0 +1,47 @@
+.user{
+    width: 250px;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.user__name{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.user__list{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user__item{
+    display: flex;
+    flex-direction: column;
+}
+.user__item span:first-child{
+    color: grey;
+}
+.user__line{
+    color: rgb(228, 228, 228);
+}
+.user__buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.btn__trash{
+    background-color: rgb(255, 189, 189);
+}
+.btn__edit{
+    background-color: #fff;
+}
+.user__btn{
+    display: flex;
+    padding: 7px;
+}
+.user__btn:first-child{
+    color: #fff;
+}
